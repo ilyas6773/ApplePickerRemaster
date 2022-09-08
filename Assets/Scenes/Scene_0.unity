@@ -366,6 +366,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -6561921336345505000, guid: a412a308b6945ac498996104d0d83681, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 9167530988420972545, guid: 3fcb92b2121a3a74bbc009a05cb4d001, type: 3}
+    - target: {fileID: -6561921336345505000, guid: a412a308b6945ac498996104d0d83681, type: 3}
       propertyPath: leftAndRightEdge
       value: 20
       objectReference: {fileID: 0}
@@ -416,6 +420,10 @@ PrefabInstance:
     - target: {fileID: 3199525517104874458, guid: a412a308b6945ac498996104d0d83681, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3199525517104874459, guid: a412a308b6945ac498996104d0d83681, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a412a308b6945ac498996104d0d83681, type: 3}
