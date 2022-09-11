@@ -26,4 +26,12 @@ public class ApplePicker : MonoBehaviour
     {
         
     }
+
+    public void AppleDestroyed(){
+        //delete all fallen apples
+        GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("Apple");
+        foreach ( GameObject tGO in tAppleArray){
+            Destroy ( tGO );
+        }
+    }
 }
