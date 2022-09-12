@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Basket : MonoBehaviour
 {
     [Header("Set Dynamically")]
-    public Text scoreGT;
+    public TMP_Text scoreGT;
+
     void Start() {
         //Get a reference to the game object ScoreCounter
         GameObject scoreGO = GameObject.Find("ScoreCounter");
         //Get the Text component of this game object
-        scoreGT = scoreGO.GetComponent<Text>();
+        scoreGT = scoreGO.GetComponent<TMP_Text>();
         //Set initial score to 0
         scoreGT.text = "0";
     }
