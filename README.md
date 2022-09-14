@@ -27,4 +27,6 @@ To launch this game just download it and launch it in Unity v2021.3.0f1 or later
 
 Give a ⭐️ if this project helped you!
 
+Check Wiki for more info
+
 ***
